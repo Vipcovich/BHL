@@ -53,8 +53,7 @@ public class BHL_TestRunner
     Run(names, new TestStd());
     Run(names, new TestErrors());
     Run(names, new TestMarshall());
-    //TODO:
-    //Run(names, new TestLSP());
+    Run(names, new TestLSP());
     Run(names, new TestPerf());
   }
 

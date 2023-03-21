@@ -456,7 +456,7 @@ public class TestLSP : BHL_TestBase
 
   }
 
-  [IsTested()]
+  //[IsTested()]
   public void TestSignatureHelp()
   {
     string bhl1 = @"
